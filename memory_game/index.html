@@ -13,7 +13,7 @@
 
 	<nav>
 		<a href="#instructions" class="caps">Instructions</a>
-		<a href="#game" class="caps">Game</a>
+		<a href="#game-board" class="caps">Game</a>
 	</nav>
 
 	<main>
@@ -21,21 +21,26 @@
 
 		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
 
-		<div id="game">
-			<img src="images/back.png" alt="Queen of Diamonds">
-			<img src="images/back.png" alt="Queen of Hearts">
-			<img src="images/back.png" alt="King of Diamonds">
-			<img src="images/back.png" alt="King of Hearts">
-		</div>
+		<div id="game-board" class="board clearfix"></div>
+
+		<button id="reset">Reset Game</button>
+
+		<h2>Score</h2>
+		<table id="scoreTable">
+			<tr>
+				<th>Win</th>
+				<th>Loss</th>
+			</tr>
+			<tr>
+				<td id="win"></td>
+				<td id="loss"></td>
+			</tr>
+			
+		</table>
 
 		<h2>Description</h2>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>The above game has been created to test your memory skills. The score table will update each time you turn over two cards. If you wish to clear the score table back to 0 wins and 0 losses, please refresh the entire page. </p>
 
 		<h2>About the Developer</h2>
 		<p>Find out more about the developer of this website by clicking the below link to their Linkedin page.</p>
